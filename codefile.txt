@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirubashini | Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; line-height: 1.6; background: linear-gradient(to right, #f9f9f9, #f1f1f1); color: #222; }
+    header { background: #3b0764; color: white; padding: 4rem 2rem; text-align: center; position: relative; }
+    header img { width: 160px; height: 160px; border-radius: 50%; border: 4px solid white; margin-top: 1rem; object-fit: cover; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; opacity: 0.8; }
+    nav { background: #240046; display: flex; justify-content: center; padding: 1rem; }
+    nav a { color: white; margin: 0 1.5rem; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+    nav a:hover { color: #ffb703; }
+    main { max-width: 1000px; margin: 3rem auto; padding: 2rem; background: white; border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.05); }
+    section { margin-bottom: 3rem; }
+    section h2 { font-size: 1.75rem; color: #3b0764; border-bottom: 3px solid #c77dff; display: inline-block; margin-bottom: 1rem; }
+    ul { margin-left: 1.5rem; }
+    .btn { display: inline-block; background: #3b0764; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 8px; margin-top: 1rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    footer { text-align: center; font-size: 0.9rem; padding: 2rem; color: #777; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kirubashini Ulaganathan</h1>
+  <p>Data Analyst | HR Analyst | BI Developer</p>
+  <img src="C:\Users\PRAVEENKUMR\Pictures\image.jpg" alt="Profile Photo" />
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate and detail-oriented Data Analyst with a strong foundation in computer science and experience across HR and business domains. I specialize in transforming raw data into actionable insights using tools such as Power BI, SQL, Python, and Alteryx. My ability to bridge the gap between technical data handling and real-world business solutions has enabled successful collaborations with stakeholders, optimized decision-making, and helped drive business growth.
+    </p>
+    <p>
+      I believe in continuous learning and staying updated with evolving trends in data, analytics frameworks, and technologies. I am confident in working within Agile frameworks, contributing to full SDLC-based projects, and presenting findings through impactful dashboards. I aim to transition data into meaningful strategy.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div>
+        <h3>Technical</h3>
+        <ul>
+          <li>Power BI, Tableau, Alteryx</li>
+          <li>SQL, Python, C</li>
+          <li>Excel, Word, PowerPoint</li>
+          <li>HTML, CSS</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Analytics & Frameworks</h3>
+        <ul>
+          <li>JIRA, SDLC Lifecycle</li>
+          <li>Data Visualization & Predictive Analytics</li>
+          <li>Agile & Scrum Collaboration</li>
+          <li>Data-Driven Decision Making</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>Data Analyst – Algojaxon Global Soft Pvt Ltd (2022–2024)</h3>
+    <ul>
+      <li>Collected, cleaned, and analyzed large datasets to support business decisions in sales and marketing operations.</li>
+      <li>Created interactive dashboards and reports using Power BI and Tableau, improving stakeholder reporting speed by 40%.</li>
+      <li>Collaborated with cross-functional teams to identify trends and customer behavior using SQL and Excel.</li>
+      <li>Automated repetitive data preparation tasks using Python and Alteryx, reducing manual work by 25%.</li>
+      <li>Presented insights to management, influencing a 10% increase in customer retention through targeted strategies.</li>
+      <strong>Tools Used:</strong> Excel, SQL, Power BI, Python, Tableau, Alteryx<br>
+      <strong>Domain:</strong> Sales Analysis, Customer Retention, Performance KPIs
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>HR Performance Dashboard:</strong>The HR Performance Dashboard provides a comprehensive view of key human resource metrics to support strategic decision-making. It helps HR managers track employee performance, retention, absenteeism, recruitment efficiency, and overall workforce productivity in real time.
+
+</li>
+     <img src="C:/Users/PRAVEENKUMR/Pictures/HR dashboard.png" alt="HR Dashboard" width="500">
+<br>
+      <li><strong>Employee Retention Analysis:</strong>It helps organizations understand the factors that influence employee turnover and identify strategies to improve workforce stability. This analysis focuses on identifying patterns, risk factors, and areas of improvement to enhance employee satisfaction and reduce attrition.
+
+
+</li><br>
+      <img src="C:\Users\PRAVEENKUMR\Pictures\Performance.png" alt="Employee Dashboard" width="500"><br>
+      <li><strong>Sales Analysis Dashboard:</strong>The Sales Analysis Dashboard provides a dynamic and interactive view of an organization’s sales performance across products, regions, and time periods. It enables stakeholders to monitor KPIs, uncover trends, and make data-driven decisions to improve revenue growth and operational efficiency.</li>
+      <img src="C:\Users\PRAVEENKUMR\Pictures\Model View.png" alt="Model view" width="500">
+      <img src="C:\Users\PRAVEENKUMR\Pictures\screenshot page 1.png" alt="page1" width="500"><br>
+      <img src="C:\Users\PRAVEENKUMR\Pictures\Screenshot page 2.png" alt="page2" width="500"><br>
+      
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:kirubashiniu@gmail.com">kirubashiniu@gmail.com</a></p>
+    <p>Phone: +971-557055068</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/kirubashini-u-75a644211" target="_blank">linkedin.com/in/kirubashini-u</a></p>
+    <p>GitHub: <a href="https://github.com/KirubashiniU" target="_blank">github.com/KirubashiniU</a></p>
+    <a class="btn" href="KIRUBASHINI CV (1).pdf" download>Download My Resume</a>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Kirubashini Ulaganathan | Portfolio powered by Data & Design
+</footer>
+
+</body>
+</html>
